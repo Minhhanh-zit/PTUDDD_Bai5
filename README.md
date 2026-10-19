@@ -1,54 +1,56 @@
-# Bài 5 - Ứng dụng Quản lý khóa học
+# Bài 5: Ứng dụng Quản lý khóa học
 
-Ứng dụng được xây dựng bằng React Native và Expo,
-sử dụng MockAPI.io làm REST API backend.
-
-## Công nghệ
-
-- React Native và Expo SDK 57
-- JavaScript
-- Axios để gọi REST API
-- React Navigation để chuyển màn hình
-- React Native WebView để phát trailer
-- Ionicons và giao diện pastel
+Ứng dụng di động bằng **React Native + Expo SDK 57**, JavaScript và MockAPI REST API. Giao diện pastel.
 
 ## Chức năng
+- Hiển thị khóa học, tìm kiếm không dấu, lọc danh mục từ API.
+- Xem chi tiết, ảnh bìa URL, học phí, giảng viên, mô tả, thời lượng.
+- Thêm / sửa / xóa khóa học qua API; xác nhận xóa và kiểm tra dữ liệu.
+- CRUD danh mục từ API; kiểm tra phía ứng dụng để không xóa danh mục đang có khóa học.
+- Trailer YouTube phát trong WebView; trạng thái loading, lỗi kết nối và danh sách rỗng.
 
-- Hiển thị danh sách khóa học từ MockAPI
-- Tìm kiếm và lọc theo danh mục
-- Xem chi tiết và phát trailer
-- Thêm, sửa, xóa khóa học
-- Kiểm tra dữ liệu nhập và xác nhận xóa
-- Quản lý danh mục và kiểm tra ràng buộc khi xóa
+## Cài đặt
+Yêu cầu Node.js, npm và Expo Go tương thích với SDK.
 
-## MockAPI
-
-Base URL:
-
-https://6ad61022f71f154ac4866450.mockapi.io
-
-Resources:
-
-- GET, POST /categories
-- PUT, DELETE /categories/{id}
-- GET, POST /courses
-- GET /courses/{id}
-- PUT, DELETE /courses/{id}
-
-## Hướng dẫn chạy
-
-Yêu cầu: Node.js, npm và Expo Go.
-
-```bash
+~~~bash
 npm install
 npx expo start --lan
-```
+~~~
 
-Sau đó quét mã QR bằng Expo Go trên iPhone.
+Dùng iPhone kết nối cùng mạng với máy Mac và quét mã QR bằng Expo Go.
 
+## Đường dẫn MockAPI
+https://6ad61022f71f154ac4866450.mockapi.io
 
+| Phương thức | Endpoint | Chức năng |
+| --- | --- | --- |
+| GET, POST | /categories | Danh sách / thêm danh mục |
+| PUT, DELETE | /categories/:id | Sửa / xóa danh mục |
+| GET, POST | /courses | Danh sách / thêm khóa học |
+| GET | /courses/:id | Chi tiết khóa học |
+| PUT, DELETE | /courses/:id | Sửa / xóa khóa học |
 
-<!-- SCREENSHOTS_START -->
-## Hình ảnh minh chứng
+Liên kết 1–N qua courses.categoryId = categories.id. Tên danh mục lấy từ API, không hardcode.
 
-<!-- SCREENSHOTS_END -->
+## Cấu trúc source
+~~~text
+App.js                 Stack Navigator và nút hành động
+src/
+  screens/             Danh sách, chi tiết, form, danh mục, trailer
+  components/          CourseCard
+  services/            Axios, courseService, categoryService
+  config/              mockapi.json
+assets/                Ảnh ứng dụng
+~~~
+
+## Video demo
+[Video quay và minh chứng trên GitHub Releases](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases).
+
+## Kiểm thử trước khi nộp
+1. Thêm / sửa / xóa khóa học, xác nhận dữ liệu trên MockAPI.
+2. Tìm kiếm, lọc, xem chi tiết và phát trailer.
+3. Thêm danh mục thử, thêm khóa học vào danh mục đó rồi thử xóa: phải báo không thể xóa.
+4. Chuyển/xóa khóa học thử, sau đó xóa danh mục thử thành công.
+5. Kiểm tra kết nối lỗi, dữ liệu rỗng.
+
+> Chỉ thử xóa dữ liệu mới tạo, không xóa 10 khóa học mẫu.
