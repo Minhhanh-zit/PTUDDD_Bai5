@@ -22,10 +22,10 @@ import { getCategories } from "../services/categoryService";
 
 function normalize(value) {
   return String(value || "")
+    .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/đ/g, "d")
-    .toLowerCase();
+    .replace(/đ/g, "d");
 }
 
 export default function CourseListScreen({ navigation }) {

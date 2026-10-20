@@ -29,6 +29,7 @@ import {
 import CourseListScreen from "./src/screens/CourseListScreen";
 import CourseDetailScreen from "./src/screens/CourseDetailScreen";
 import CourseFormScreen from "./src/screens/CourseFormScreen";
+import CategoryScreen from "./src/screens/CategoryScreen";
 import TrailerScreen from "./src/screens/TrailerScreen";
 
 import { deleteCourse } from "./src/services/courseService";
@@ -53,6 +54,14 @@ function HomeScreen({ navigation }) {
         key={refreshKey}
         navigation={navigation}
       />
+
+      <TouchableOpacity
+        style={styles.categoryButton}
+        onPress={() => navigation.navigate("Categories")}
+      >
+        <Ionicons name="albums-outline" size={18} color="#58466F" />
+        <Text style={styles.categoryButtonText}>Danh mục</Text>
+      </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.addButton}
@@ -132,7 +141,7 @@ function DetailScreen({ route, navigation }) {
           }
         >
           <Ionicons name="create-outline" size={22} color="#58466F" />
-  <Text style={styles.actionText}>Sửa</Text>
+          <Text style={styles.actionText}>Sửa</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -144,9 +153,9 @@ function DetailScreen({ route, navigation }) {
             <ActivityIndicator color="#514366" />
           ) : (
             <>
-<Ionicons name="trash-outline" size={22} color="#58466F" />
-  <Text style={styles.actionText}>Xóa</Text>
-</>
+              <Ionicons name="trash-outline" size={22} color="#58466F" />
+              <Text style={styles.actionText}>Xóa</Text>
+            </>
           )}
         </TouchableOpacity>
       </View>
@@ -186,6 +195,12 @@ export default function App() {
           />
 
           <Stack.Screen
+            name="Categories"
+            component={CategoryScreen}
+            options={{ title: "Quản lý danh mục" }}
+          />
+
+          <Stack.Screen
             name="CourseForm"
             component={CourseFormScreen}
             options={({ route }) => ({
@@ -209,6 +224,23 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  categoryButton: {
+    position: "absolute",
+    bottom: 20,
+    left: 16,
+    paddingVertical: 15,
+    paddingHorizontal: 14,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+    borderRadius: 30,
+    backgroundColor: "#BCE8D6",
+  },
+  categoryButtonText: {
+    fontSize: 14,
+    fontWeight: "bold",
+    color: "#58466F",
+  },
   container: {
     flex: 1,
     backgroundColor: "#FAF7FF",

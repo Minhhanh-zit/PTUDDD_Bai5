@@ -14,12 +14,6 @@
         "backgroundColor": "#F0E9F9",
         "foregroundImage": "./assets/android-icon-foreground.png"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-video"
-    ]
+    }
   }
 }

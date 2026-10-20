@@ -39,3 +39,13 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Videos are uploaded as GitHub Release assets, not committed to source
+*.mov
+*.mp4
+
+# Temporary local backups
+*.before_*
+*.backup
+*.bak
+backup_*/
