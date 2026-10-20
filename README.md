@@ -43,9 +43,6 @@ src/
 assets/                Ảnh ứng dụng
 ~~~
 
-## Video demo
-[Video quay và minh chứng trên GitHub Releases](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases).
-
 ## Kiểm thử trước khi nộp
 1. Thêm / sửa / xóa khóa học, xác nhận dữ liệu trên MockAPI.
 2. Tìm kiếm, lọc, xem chi tiết và phát trailer.
@@ -67,8 +64,6 @@ Nhấn ảnh bên dưới để mở **video demo thực tế** được lưu tr
 
 [Trang phát hành video trên GitHub](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/tag/v1.0-demo)
 
-> Video đã được đăng lên GitHub Releases. Đường dẫn video trong README mở tới video gốc; trình phát nội tuyến ngay trên GitHub cần một URL đính kèm `user-attachments`.
-
 ## 📱 Hình ảnh minh chứng
 
 ### Các thao tác chính
@@ -87,9 +82,6 @@ Nhấn ảnh bên dưới để mở **video demo thực tế** được lưu tr
 | **Biểu mẫu thêm danh mục** | **Thêm danh mục thành công** |
 | <img src="docs/screenshots/20-xoa-danh-muc-thanh-cong.png" width="230" alt="Xóa danh mục thành công"> | <img src="docs/screenshots/22-chan-xoa-danh-muc-co-khoa-hoc.png" width="230" alt="Chặn xóa danh mục đang có khóa học"> |
 | **Xóa danh mục thành công** | **Chặn xóa danh mục đang có khóa học** |
-| <img src="docs/screenshots/23-phat-trailer-trong-ung-dung.png" width="230" alt="Phát trailer trong ứng dụng"> |  |
-| **Phát trailer trong ứng dụng** | **** |
-
 <details>
 <summary><strong>Xem danh sách đầy đủ 23 ảnh minh chứng</strong></summary>
 
