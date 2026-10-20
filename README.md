@@ -55,12 +55,26 @@ assets/                Ảnh ứng dụng
 
 > Chỉ thử xóa dữ liệu mới tạo, không xóa 10 khóa học mẫu.
 
+
 <!-- SHOWCASE_START -->
+
 ## 🎬 Video thuyết trình
 
-**[▶ Xem hoặc tải video thuyết trình Bài 5 (.mov, khoảng 63 MB)](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/download/v1.0-demo/ScreenRecording_10-20-2026.00-12-22_1.mov)**
+[![Xem video thuyết trình](assets/icon.png)](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/download/v1.0-demo/ScreenRecording_10-20-2026.00-12-22_1.mov)
 
-Video được lưu ở [GitHub Releases](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/tag/v1.0-demo).
+**[▶ Xem hoặc tải video thuyết trình Bài 5](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/download/v1.0-demo/ScreenRecording_10-20-2026.00-12-22_1.mov)**
 
-Ảnh minh chứng sẽ được bổ sung vào mục này khi đưa bộ 23 ảnh lên repository.
+Video được lưu trên GitHub Releases.
+
+## 📱 Hình ảnh minh chứng
+
+Ảnh minh chứng đang được bổ sung.
+
+<details>
+<summary>Xem tất cả 0 ảnh minh chứng</summary>
+
+
+
+</details>
+
 <!-- SHOWCASE_END -->
