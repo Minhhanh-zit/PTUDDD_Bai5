@@ -57,24 +57,65 @@ assets/                Ảnh ứng dụng
 
 
 <!-- SHOWCASE_START -->
-
 ## 🎬 Video thuyết trình
 
-[![Xem video thuyết trình](assets/icon.png)](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/download/v1.0-demo/ScreenRecording_10-20-2026.00-12-22_1.mov)
+Nhấn ảnh bên dưới để mở **video demo thực tế** được lưu trên GitHub Releases.
 
-**[▶ Xem hoặc tải video thuyết trình Bài 5](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/download/v1.0-demo/ScreenRecording_10-20-2026.00-12-22_1.mov)**
+[![Xem video demo](docs/screenshots/23-phat-trailer-trong-ung-dung.png)](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/download/v1.0-demo/ScreenRecording_10-20-2026.00-12-22_1.mov)
 
-Video được lưu trên GitHub Releases.
+**[▶ Xem hoặc tải video thuyết trình (.mov, khoảng 63 MB)](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/download/v1.0-demo/ScreenRecording_10-20-2026.00-12-22_1.mov)**
+
+[Trang phát hành video trên GitHub](https://github.com/Minhhanh-zit/PTUDDD_Bai5/releases/tag/v1.0-demo)
+
+> Video đã được đăng lên GitHub Releases. Đường dẫn video trong README mở tới video gốc; trình phát nội tuyến ngay trên GitHub cần một URL đính kèm `user-attachments`.
 
 ## 📱 Hình ảnh minh chứng
 
-Ảnh minh chứng đang được bổ sung.
+### Các thao tác chính
+
+| | |
+|:--:|:--:|
+| <img src="docs/screenshots/01-danh-sach-khoa-hoc.png" width="230" alt="Danh sách khóa học"> | <img src="docs/screenshots/09-loc-khoa-hoc.png" width="230" alt="Lọc khóa học theo danh mục"> |
+| **Danh sách khóa học** | **Lọc khóa học theo danh mục** |
+| <img src="docs/screenshots/02-chi-tiet-khoa-hoc.png" width="230" alt="Chi tiết khóa học"> | <img src="docs/screenshots/06-form-them-khoa-hoc.png" width="230" alt="Form thêm khóa học"> |
+| **Chi tiết khóa học** | **Form thêm khóa học** |
+| <img src="docs/screenshots/07-them-khoa-hoc-thanh-cong.png" width="230" alt="Thêm khóa học thành công"> | <img src="docs/screenshots/04-form-sua-khoa-hoc.png" width="230" alt="Form sửa khóa học"> |
+| **Thêm khóa học thành công** | **Form sửa khóa học** |
+| <img src="docs/screenshots/12-xoa-khoa-hoc-thanh-cong.png" width="230" alt="Xóa khóa học thành công"> | <img src="docs/screenshots/13-danh-sach-danh-muc.png" width="230" alt="Danh sách danh mục"> |
+| **Xóa khóa học thành công** | **Danh sách danh mục** |
+| <img src="docs/screenshots/17-form-them-danh-muc.png" width="230" alt="Biểu mẫu thêm danh mục"> | <img src="docs/screenshots/18-them-danh-muc-thanh-cong.png" width="230" alt="Thêm danh mục thành công"> |
+| **Biểu mẫu thêm danh mục** | **Thêm danh mục thành công** |
+| <img src="docs/screenshots/20-xoa-danh-muc-thanh-cong.png" width="230" alt="Xóa danh mục thành công"> | <img src="docs/screenshots/22-chan-xoa-danh-muc-co-khoa-hoc.png" width="230" alt="Chặn xóa danh mục đang có khóa học"> |
+| **Xóa danh mục thành công** | **Chặn xóa danh mục đang có khóa học** |
+| <img src="docs/screenshots/23-phat-trailer-trong-ung-dung.png" width="230" alt="Phát trailer trong ứng dụng"> |  |
+| **Phát trailer trong ứng dụng** | **** |
 
 <details>
-<summary>Xem tất cả 0 ảnh minh chứng</summary>
+<summary><strong>Xem danh sách đầy đủ 23 ảnh minh chứng</strong></summary>
 
-
+- [01. Danh sách khóa học](docs/screenshots/01-danh-sach-khoa-hoc.png)
+- [02. Chi tiết khóa học](docs/screenshots/02-chi-tiet-khoa-hoc.png)
+- [03. Sửa khóa học thành công](docs/screenshots/03-sua-khoa-hoc-thanh-cong.png)
+- [04. Form sửa khóa học](docs/screenshots/04-form-sua-khoa-hoc.png)
+- [05. Dữ liệu sau khi sửa](docs/screenshots/05-khoa-hoc-sau-khi-sua.png)
+- [06. Form thêm khóa học](docs/screenshots/06-form-them-khoa-hoc.png)
+- [07. Thêm khóa học thành công](docs/screenshots/07-them-khoa-hoc-thanh-cong.png)
+- [08. Dữ liệu thêm khóa học](docs/screenshots/08-du-lieu-them-khoa-hoc.jpeg)
+- [09. Lọc khóa học theo danh mục](docs/screenshots/09-loc-khoa-hoc.png)
+- [10. Chi tiết khóa học mới](docs/screenshots/10-chi-tiet-khoa-hoc-moi.png)
+- [11. Xác nhận xóa khóa học](docs/screenshots/11-xac-nhan-xoa-khoa-hoc.png)
+- [12. Xóa khóa học thành công](docs/screenshots/12-xoa-khoa-hoc-thanh-cong.png)
+- [13. Danh sách danh mục](docs/screenshots/13-danh-sach-danh-muc.png)
+- [14. Biểu mẫu sửa danh mục](docs/screenshots/14-form-sua-danh-muc.png)
+- [15. Thao tác sửa danh mục](docs/screenshots/15-nhap-sua-danh-muc.png)
+- [16. Sửa danh mục thành công](docs/screenshots/16-sua-danh-muc-thanh-cong.png)
+- [17. Biểu mẫu thêm danh mục](docs/screenshots/17-form-them-danh-muc.png)
+- [18. Thêm danh mục thành công](docs/screenshots/18-them-danh-muc-thanh-cong.png)
+- [19. Xác nhận xóa danh mục](docs/screenshots/19-xac-nhan-xoa-danh-muc.png)
+- [20. Xóa danh mục thành công](docs/screenshots/20-xoa-danh-muc-thanh-cong.png)
+- [21. Điều hướng quản lý danh mục](docs/screenshots/21-nut-quan-ly-danh-muc.png)
+- [22. Chặn xóa danh mục đang có khóa học](docs/screenshots/22-chan-xoa-danh-muc-co-khoa-hoc.png)
+- [23. Phát trailer trong ứng dụng](docs/screenshots/23-phat-trailer-trong-ung-dung.png)
 
 </details>
-
 <!-- SHOWCASE_END -->
